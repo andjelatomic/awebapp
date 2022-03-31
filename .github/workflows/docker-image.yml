@@ -15,4 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag awebapp:$(date +%s)
+      run: docker build . --file Dockerfile --tag andjelalaniakea/awebapp:latest
+    - name: Push the Docker image
+      run: docker login -u andjelalaniakea -p ${{secrets.DOCKER_TOKEN}} && docker push andjelalaniakea/awebapp:latest
+    
