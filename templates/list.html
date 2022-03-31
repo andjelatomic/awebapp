@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Items</title>
+    <link href="{{ url_for('static', path='/styleforms.css') }}" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+            <div class="jumbotron">
+                <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name of the item</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {% for item in items%}
+                        <td>{{item.nameoftheitem}}</td>
+                        <td>{{item.description}}</td>
+                        <td>{{item.price}}</td>
+                        </tr>
+                        {% endfor %}
+                    <tr>
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<p>: {{ message }}</p>
+
+</body>
+</html>
+

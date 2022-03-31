@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Items</title>
+    <link href="{{ url_for('static', path='/styleforms.css') }}" rel="stylesheet">
+
+</head>
+<body>
+
+<form method="post" enctype="multipart/form-data">
+<div class="container">
+                <table class="table">
+                <thead>
+                        <tr>
+                        <td colspan=5><h1>Welcome to the Andjela's shop</h1></td>
+                        </tr>
+                        <tr>
+                         <th>user: {{currentusername}}</th>   
+                        </tr>
+                        <tr>
+                            {% for header in headings%}
+                            <th>{{header}}</th>
+                            {% endfor %}
+                       </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {% for item in items%}
+                        <td><span>{{item.stockid}}</span> <input type="checkbox" name="{{item.stockid}}" /></td> 
+                        <td>{{item.nameoftheitem}}</td>
+                        <td>{{item.description}}</td>
+                        <td>{{item.price}}</td>
+                        <td>{{item.totalamountonstock}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan=3>
+                        <input type="text" name="homesearch" />
+                        <input type="submit" name="actionhome" value="SEARCH">
+                        </th>
+                        <th colspan=2>
+                            <input type="submit" name="actionhome" value="ADD TO BAG">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan=3>
+                         </th>
+                         <th colspan=2>
+                                <input type="submit" name="actionhome" value="VIEW BAG">
+                         </th>
+                    </tr>
+                </tfoot>
+              </table>
+    </div>
+</form>
+
+
+<p>: {{ message }}</p>
+
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+#BUILD DOCKER
+sudo docker build -t awebapp .
+
+
+
+#RUN PLEASE USER THESE SPECIFIC PORTS!
+#sudo docker run -p8001:8001 webapp
+
+
+
+
+
+
+# ADDITIONAL NOTES
+
+# UPDATE requirements file
+#pip freeze > requerements.txt
+#cat requerements.txt
+
+# CREATE virtual environment
+#python -m venv venv
+
+# ACTIVATE IT
+# . venv/bin/activate
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="{{ url_for('static', path='/styleforms.css') }}" rel="stylesheet">
+</head>
+<body>
+<form method="post">
+    <div class="center-screen">
+      <div>  
+        <label for="username">Username</label>
+        <input type="text" name="username" />
+        <label for="password">Password</label>
+       <input type="password" name="password" />
+       <br><input type="submit" name="action" value="LOGIN">
+       <input type="submit" name="action" value="NEW CUSTOMER">
+       
+       <p>{{ message }}</p>
+      </div>
+    </div>
+</form>
+
+
+
+</body>
+</html>
