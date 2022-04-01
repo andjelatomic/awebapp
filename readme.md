@@ -9,14 +9,15 @@ website.
 You can find in here:
  - How to design simple relational database. This example is in SQLIte, but it can be used in SQL Server (MS) and Oracle server as well, as two fastest database servers
  - How to use FastAPI, get and push data to the webpage, set and get cookies, and how to process HTML pages with the dynamic data.
- - 
+ - Different database functions, and two different approach to pull/insert/update data into the relational database
+ 
 
 
 
 
 - You can pull docker image with ->
 
-docker pull ghcr.io/andjelatomic/awebapp
+[docker pull ghcr.io/andjelatomic/awebapp]
 
 - Source code is on git ->
 
