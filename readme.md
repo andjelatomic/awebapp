@@ -5,9 +5,7 @@
 
 I am not great fan of using Python for creating a website, since there are far more professional tools and languages, much closer to the dataflow, and to the actual internet datapackages flow. Of course, using this fat layer of libraries makes life in some sense easier. 
 
-Anyhow, this is small example made as a part of an asignment, very quickly, in less then a day,
-just to show posibilities on how to use Python, FastAPI, SQLITE, SQLAlchemy to build simple
-website.
+Anyhow, this is small example I've made as a part of an asignment, very quickly, in less then half of a day, just to show posibilities on how to use Python, FastAPI, SQLITE, SQLAlchemy to build simple website.
 
 ---
 
