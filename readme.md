@@ -18,12 +18,12 @@ website.
  
 ---
 
-- Please use the following line to  pull docker image with ->
-**docker pull ghcr.io/andjelatomic/awebapp**
+- Please use the following lines to pull and then to run it. Define port 8001 for the webserver (locally accessed port : docker side port).
 
-- To run the docker, please define port 8001 for the webserver (locally accessed port : docker side port). ->
-
-**docker run -p8001:8001 ghcr.io/andjelatomic/awebapp**
+```jsx 
+docker pull ghcr.io/andjelatomic/awebapp
+docker run -p8001:8001 ghcr.io/andjelatomic/awebapp
+```
 
 
 
