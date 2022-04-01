@@ -1,6 +1,7 @@
-I am not great fan of using pythong to create websites, since there are much more 
-professional tools and languages, and much closer to the dataflow, and the actual
-datapackages internet flow. 
+
+#AWebApp 
+
+##I am not great fan of using python for creating the websites, since there are more professional tools and languages, much closer to the dataflow, and the actual datapackages internet flow. 
 
 Anyhow, this is small example made as a part of an asignment, very quickly, in less then a day,
 just to show posibilities on how to use Python, FastAPI, SQLITE, SQLAlchemy to build simple
