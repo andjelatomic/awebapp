@@ -10,9 +10,9 @@ Anyhow, this is a small example I've made as a part of an assignment, very quick
 ---
 
 
-### You can find in here:
+### 🚀&nbsp; You can find in here:
  - How to design simple relational database. This example is in SQLIte, but it can be used in SQL Server (MS) and Oracle server as well, as two fastest database servers
- - How to use FastAPI, get and push data to the webpage, set and get cookies, and how to process HTML pages with the dynamic data.
+ - How to use FastAPI, get and push data to the webpage, set and get cookies, and how to process HTML pages with the dynamic data in both ways.
  - Different database functions, and two different approach to pull/insert/update data into the relational database
  
 ---
