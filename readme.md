@@ -21,3 +21,7 @@ docker pull ghcr.io/andjelatomic/awebapp
 - To run the docker, please define port 8001 for the webserver (locally accessed port : docker side port).
 
 docker run -p8001:8001 ghcr.io/andjelatomic/awebapp
+
+
+
+Andjela Tomic
